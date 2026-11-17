@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+coverage/
+.env
+tmp/
+# NEVER commit paid Pro skills or Pro full zip to the public repository!
+pack/pro/
+*pro-full*.zip
+release/

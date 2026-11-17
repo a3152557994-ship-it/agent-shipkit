@@ -1,0 +1,33 @@
+{
+  "name": "agent-shipkit",
+  "version": "1.0.0",
+  "description": "Full-stack monetization & shipping skill pack (6 production SKILL.md + executable zero-dep CLI scripts) for Claude Code, Cursor, and Antigravity indie developers.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "exports": {
+    ".": "./src/verify.mjs"
+  },
+  "scripts": {
+    "build": "node scripts/build-packs.mjs",
+    "test": "node scripts/build-packs.mjs && node --test tests/shipkit.test.mjs"
+  },
+  "keywords": [
+    "claude-code",
+    "cursor",
+    "antigravity",
+    "agent-skills",
+    "indie-hacker",
+    "ed25519",
+    "geo",
+    "llms-txt"
+  ],
+  "author": "a3152557994-ship-it",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a3152557994-ship-it/agent-shipkit.git"
+  },
+  "homepage": "https://a3152557994-ship-it.github.io/agent-shipkit/"
+}
